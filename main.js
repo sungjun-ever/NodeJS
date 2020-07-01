@@ -62,7 +62,5 @@ var app = http.createServer(function(request,response){
         response.writeHead(404);
         response.end('Not found');
     }
-    
-   
 });
 app.listen(3000);
